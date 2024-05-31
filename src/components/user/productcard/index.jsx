@@ -1,31 +1,3 @@
-
-// import React from 'react';
-// import { useDispatch } from 'react-redux';
-// import { addToCart } from '../../../redux/cartSlice';
-// import { BsCartPlusFill } from 'react-icons/bs';
-
-// function ProductCard({ id, title, images, price, color, ram, rom, cpu, screen }) {
-//   const dispatch = useDispatch();
-
-//   const handleAddToCart = () => {
-//     dispatch(addToCart({ id, title, price }));
-//   };
-
-//   return (
-//     <div className='product'>
-//       <div className="icons">
-//         <BsCartPlusFill onClick={handleAddToCart} />
-//       </div>
-//       <img src={images[0]} alt={title} />
-//       <h3 title={title}>{title} {ram}/{rom} {color}</h3>
-//       <p className='discount-price'>{Number(price.split(".").join("").replace(",", ".")) + 150} ₼</p>
-//       <p className='price'>{price.split(".").join("").replace(",", ".")} ₼</p>
-//     </div>
-//   );
-// }
-
-// export default ProductCard;
-
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../../redux/cartSlice';
